@@ -6,6 +6,7 @@ function Card(props) {
     <div className="card">
       <div className="img-container">
         <img  alt={props.name} src={props.image} />
+        <span onClick={() => props.cardClicked(props.id)}></span>
       </div>
     </div>
   );

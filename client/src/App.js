@@ -2,19 +2,26 @@ import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Card from "./components/Card";
-import Score from "./components/Score"
 import characters from "./characters.json";
 
 class App extends Component {
   state = {
-    characters
+    characters,
+    score: 0,
+    highscore: 0,
+    loss: 0,
+    clicked: []
   };
+
+  cardClicked = id => {
+    const characters = this.state.characters.map(character => character.id !== id);
+    this.setState({ characters });
+  }
 
   render() {
     return (
       <div>
         <Header /> 
-        <Score />
         <Wrapper>
       {this.state.characters.map(character => (
         <Card
