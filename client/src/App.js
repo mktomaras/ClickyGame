@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import Card from "./components/Card";
+import Score from "./components/Score"
 import characters from "./characters.json";
 
 class App extends Component {
@@ -11,14 +12,18 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
-        {this.state.characters.map(character => (
-          <Card
-            id={character.id}
-            image={character.image}
-          />
-        ))}
-      </Wrapper>
+      <div>
+        <Header /> 
+        <Score />
+        <Wrapper>
+      {this.state.characters.map(character => (
+        <Card
+          id={character.id}
+          image={character.image}
+        />
+      ))}
+    </Wrapper>
+      </div>      
     );
   }
 
