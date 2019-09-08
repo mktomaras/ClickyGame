@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ClickyGame/static/css/main.69015449.chunk.css",
+    "main.js": "/ClickyGame/static/js/main.a189ecf7.chunk.js",
+    "main.js.map": "/ClickyGame/static/js/main.a189ecf7.chunk.js.map",
+    "runtime~main.js": "/ClickyGame/static/js/runtime~main.1df70f2f.js",
+    "runtime~main.js.map": "/ClickyGame/static/js/runtime~main.1df70f2f.js.map",
+    "static/js/2.5f124323.chunk.js": "/ClickyGame/static/js/2.5f124323.chunk.js",
+    "static/js/2.5f124323.chunk.js.map": "/ClickyGame/static/js/2.5f124323.chunk.js.map",
+    "index.html": "/ClickyGame/index.html",
+    "precache-manifest.2d539ccf739336a5d86e4d6ca60cac2e.js": "/ClickyGame/precache-manifest.2d539ccf739336a5d86e4d6ca60cac2e.js",
+    "service-worker.js": "/ClickyGame/service-worker.js",
+    "static/css/main.69015449.chunk.css.map": "/ClickyGame/static/css/main.69015449.chunk.css.map",
+    "static/media/style.css": "/ClickyGame/static/media/astronomy-constellations-milky-way-127577.da5c47da.jpg"
+  }
+}
