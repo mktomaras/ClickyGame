@@ -9,13 +9,16 @@ function Header(props) {
       <div className="col-sm-2" >
         <ul className="navbar-nav flex-column">
           <li className="nav-item">
-            Score: {props.score}
+            Correct Clicks: {props.score}
           </li>
           <li className="nav-item">
-            High Score: {props.highscore}
+            Highest Clicks: {props.highscore}
           </li>
           <li className="nav-item">
             Losses: {props.loss}
+          </li>
+          <li className="nav-item">
+            Wins: {props.win}
           </li>
         </ul>
       </div>
