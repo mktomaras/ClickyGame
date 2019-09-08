@@ -1,4 +1,4 @@
-# Harry Potter Memory Gane
+# Harry Potter Memory Game
 
 ## About
 In this game, a user can test their memory by seeing if they can click all 12 images, one at a time, without clicking on an image twice. 
